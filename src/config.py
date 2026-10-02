@@ -1,0 +1,22 @@
+TICKERS = [
+    "AAPL",
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "CSCO",
+    "MSFT",
+    "NFLX",
+    "PEP",
+    "TMUS",
+    "TSLA"
+]
+
+SMA_WINDOWS = [10, 20]
+EMA_WINDOWS = [10, 20]
+
+DONCHIAN_WINDOW = 20
+
+BOLLINGER_WINDOW = 20
+BOLLINGER_MULTIPLIER = 2
+
+ZSCORE_WINDOW = 20
