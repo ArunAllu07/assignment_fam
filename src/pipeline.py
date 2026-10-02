@@ -1,5 +1,7 @@
 from src.aggregation import aggregate_monthly
 from src.indicators import calculate_all_indicators
+from src.utils import load_data, prepare_data, save_result, validate_outputs
+from src.config import TICKERS
 from src.utils import (
     load_data,
     prepare_data,
